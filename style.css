@@ -1,0 +1,320 @@
+/***************
+           HEADER AREA 
+                 **************/
+
+.header-area {
+    overflow: hidden;
+}
+.header-area .navbar .navbar-nav a {
+    margin-right: 30px;
+    color: #515151;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.header-area .navbar .navbar-nav a:hover {
+    text-decoration: underline;
+}
+.navbar-nav .mgtop {
+    margin-top: 30px;
+}
+.collapse {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.header-area .header-image img {
+    width: 100%;
+    height: auto;
+}
+/***********
+		Inro Section 
+			************/
+
+.intro-section {
+    overflow: hidden;
+    background-color: #F7F7F7;
+}
+.intro-section .row {
+    padding: 80px 0;
+}
+.intro-section .row h2 {
+    text-transform: uppercase;
+    color: #353738;
+    line-height: 3em;
+    font-size: 19px;
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.content {
+    width: 80%;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    line-height: 2em;
+    color: #848789;
+    margin: 0 auto;
+}
+/****************
+			DESCRIPTION SECTION
+				**********************/
+
+.description-section {
+    overflow: hidden;
+}
+.description-section .s-row {
+    height: 540px;
+}
+.description-section .s-row .big-img {
+    background: url(images/vintage-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 540px;
+}
+.description-section .s-row .big-img img {
+    margin-top: 260px;
+}
+.row .big-img {
+    overflow: hidden;
+    width: 100%;
+    padding-right: 0;
+}
+.description-section .small {
+    padding-right: 0;
+    width: 100%;
+}
+.row .col-md-4 .row {
+    overflow: hidden;
+    width: 100%;
+}
+.description-section .row .col-md-4 .text {
+    height: 380px;
+    overflow: hidden;
+}
+.description-section .row .col-md-4 .text .small-des {
+    padding: 30px;
+}
+.description-section .row .col-md-4 .text .icon-image {
+    overflow: hidden;
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    margin: 0 auto;
+}
+.col-md-4 .text h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.description-section .row .col-md-4 .small-img {
+    overflow: hidden;
+    background-image: url(images/vintage-bike-small.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 160px;
+    background-size: 100% 160px;
+    height: 160px;
+}
+.col-md-4 hr {
+    width: 15%;
+    background-color: red;
+    height: 1px;
+}
+.description-section .sec-small-img {
+    overflow: hidden;
+    background-image: url(images/secVintageBike.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 160px;
+    background-size: 100% 160px;
+    height: 160px;
+}
+.description-section .sec-big-img {
+    background: url(images/vintage-bike-2.jpg );
+    background-repeat: no-repeat;
+    background-size: 100% 540px;
+}
+.description-section .s-row .sec-big-img img {
+    margin-top: 260px;
+}
+.row .big-img {
+    overflow: hidden;
+    width: 100%;
+    padding-right: 0;
+}
+.sec-small {
+    padding-right: 0;
+}
+.sec-small-img {
+    margin-right: 0;
+    margin-left: 0;
+}
+.description-section .mid-img {
+    overflow: hidden;
+    background-image: url(images/cycle.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 540px;
+    background-size: 100% 540px;
+    height: 540px;
+}
+.description-section .sec-mid-img {
+    overflow: hidden;
+    background-image: url(images/cycle2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 540px;
+    background-size: 100% 540px;
+    height: 540px;
+}
+.description-section .third-small {
+    padding-right: 0;
+    padding-left: 0;
+}
+.description-section .third-small .third-small-img {
+    margin-left: 0;
+}
+.description-section .third-small-img {
+    overflow: hidden;
+    background-image: url(images/smallImage3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 160px;
+    background-size: 100% 160px;
+    height: 160px;
+}
+/************
+			Tweet Section 
+						*************/
+
+.tweet-section {
+    background: #F7F7F7;
+    padding: 100px 0;
+}
+.tweet-section .tweet-icon {
+    color: #56C7EF;
+    font-size: 30px;
+}
+.tweet-section h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.tweet-section h2 span {
+    font-size: 16px;
+    color: #CCCCCC;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+.tweet-section p {
+    font-size: 18px;
+}
+/**********
+		Gallery section 
+				*****************/
+
+.gallery-section {
+    overflow: hidden;
+    height: 480px;
+}
+.gallery-section .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.gallery-section .col-sm-6, .gallery-section .col-md-4, .gallery-section .col-md-2 {
+    padding-right: 0;
+    padding-left: 0;
+}
+.gallery-section .row .sub-row {
+    margin-left: 0;
+    margin-right: 0;
+    height: 240px;
+}
+/*************
+			Discover shop
+					*************/
+
+.discover-section {
+    overflow: hidden;
+    background-color: #282F35;
+    padding: 70px 0;
+}
+.discover-section a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px 50px;
+}
+.discover-section a:hover {
+    color: #282F35;
+    background-color: #FFFFFF;
+}
+/***********
+		subscribe-area
+				*************/
+
+.subscribe-area {
+    overflow: hidden;
+    padding: 80px 0;
+}
+.subscribe-area img {
+    margin-bottom: 40px;
+}
+.subscribe-area h4 {
+    color: #939393;
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 25px;
+}
+.subscribe-area .form {
+    padding: 10px 0;
+}
+.subscribe-area .form input {
+    padding: 25px 100px;
+}
+.subscribe-area .form button {
+    padding: 12px 50px;
+    text-transform: uppercase;
+    background-color: #64C29E;
+    color: #FFFFFF;
+    border-radius: 0;
+    margin-left: 5px;
+    font-size: 30px;
+}
+/*********
+		Footer Area
+				***********/
+
+.footer {
+    background-color: #F7F7F7;
+    padding: 80px 0;
+}
+.footer h6 {
+    font-size: 14px;
+    color: #939393;
+}
+.footer p {
+    font-size: 12px;
+    color: #939393;
+    margin-bottom: 0;
+    line-height: ;
+}
+.footer .address a{
+	color: #939393;
+}
+.footer .icon i {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.footer .icon .fa-twitter-square {
+    color: #6EC6E6;
+}
+.footer .icon .fa-facebook {
+    color: #5379BD;
+}
+.footer .icon .fa-pinterest {
+    color: #F15854;
+}
